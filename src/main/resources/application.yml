@@ -1,0 +1,13 @@
+server:
+  port: 3000
+spring:
+  application:
+    name: java-mini-chatroom
+  datasource:
+    url: jdbc:postgresql://localhost:5432/local?currentSchema=mini_chatroom&ssl=false
+    username: postgres
+    password: password
+# Logger Config
+logging:
+  level:
+    mini.chatroom: debug

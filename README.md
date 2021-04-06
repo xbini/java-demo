@@ -1,1 +1,1 @@
-# java-demo
+# java-mini-chatroom
